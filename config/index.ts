@@ -5,7 +5,7 @@ export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const IS_WORKFLOW = `${process.env.NEXT_PUBLIC_APP_TYPE_WORKFLOW}` === 'true'
 export const APP_INFO: AppInfo = {
   title: 'Lyricist',
-  description: 'App description',
+  description: '歌词创作AI',
   copyright: '',
   privacy_policy: '',
   default_language: 'en-US',
